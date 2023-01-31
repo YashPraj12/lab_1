@@ -1,0 +1,143 @@
+
+/* Typography */ 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather&family=Montserrat&family=Poppins&family=Roboto&family=Roboto+Mono&family=Sacramento&display=swap');
+html {
+    font-family: 'Fira Sans', sans-serif; 
+}
+body{
+    background-color: #F7EFE5;
+}
+
+
+a,p , li ,td , th{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1, h2, h3 {
+    font-weight: 600; 
+    
+font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    margin-bottom: 2em;
+}
+
+p {
+    font-weight: 300; 
+    line-height: 18px; 
+}
+
+h1 , h2{
+    color: #A084DC;
+}
+
+a{
+    text-decoration: none;
+   color: #645CBB;
+}
+
+a:hover{
+    font-size: 1.2em;
+    background-color: #645CBB ;
+    color: #fff;
+}
+
+
+
+.wrapper header nav {
+    text-align: center;
+}
+
+.wrapper header nav a{
+    padding: 1.5em;
+    font-size: 1.3em;
+    color: #645CBB;
+    
+    
+}
+
+.wrapper header nav a:hover{
+    background-color: #645CBB;
+    color: #fff;
+}
+
+
+.flex div p {
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+
+/* Layout */ 
+
+.wrapper {
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.flex {
+    display:flex;
+    gap: 32px;  
+}
+
+#features > div {
+    flex: 1; 
+}
+
+img {
+    max-height: 300px; 
+    width: auto; 
+}
+
+main section {
+    padding: 60px 20px 0 20px; 
+}
+
+#playlist h2{
+  
+    text-align: center;
+}
+
+/*Table*/
+
+#playlist table{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#playlist table thead tr th{
+    background-color: #645CBB;
+    color: #fff;
+}
+/*selecting odd tr elements*/
+#playlist table tbody tr:nth-of-type(odd){
+    background-color: #A084DC;
+}
+
+.flex div h3{
+    color:#fff;
+    background-color: #645CBB;
+    text-align: center;
+}
+/*selecting odd li elements*/
+.flex div ul li:nth-of-type(odd){
+    background-color: #BFACE2;
+}
+
+/*selecting odd li elements*/
+.flex div ol li:nth-of-type(odd){
+    background-color: #BFACE2;
+}
+
+.flex div table tbody tr th{
+    background-color: #C3ACD0;
+}
+
+/*selecting td of flex table*/
+.flex div table tbody tr td{
+    background-color: #645CBB;
+    width: 40%;
+    text-align: center;
+}
